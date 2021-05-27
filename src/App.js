@@ -54,6 +54,12 @@ function App() {
         }, function(error) {
            console.log('FAILED...', error);
     });
+
+
+    setDepartureCity("");
+    setArrivalCity("");
+    setEmailAddress("");
+
 }
 
 
